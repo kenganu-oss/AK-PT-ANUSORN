@@ -3,6 +3,6 @@ pandas
 matplotlib
 numpy
 seaborn
-scikit-lern
+scikit-learn
 joblip
 plotly
