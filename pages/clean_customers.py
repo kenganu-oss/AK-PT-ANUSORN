@@ -149,3 +149,5 @@ else:
 st.sidebar.divider()
 if st.sidebar.button("🏠 กลับหน้าหลัก"):
     st.switch_page("app.py")
+if st.button("🏠 กลับหน้าหลัก"):
+    st.switch_page("app.py")
