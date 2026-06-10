@@ -45,7 +45,7 @@ revenue = units_sold * unit_price
 st.info(f"Calculated Revenue: {revenue:,.2f}") # แสดงรายได้ที่คำนวณได้
 
 # สร้าง DataFrame สำหรับข้อมูลใหม่ที่ผู้ใช้ป้อน
-new_data_input = pd.DataFrame([[units_sold, marketing_spend, customer_score, logistics_delay, revenue]],
+= pd.DataFrame([[units_sold, marketing_spend, customer_score, logistics_delay, revenue]],
                                columns=features)
 
 # --- 3. ตรรกะการทำนาย (Prediction Logic) ---
