@@ -27,5 +27,5 @@ elif st.button("💰 การจัดกลุ่มข้อมูล"):
     st.switch_page("pages/clustering_segment.py") 
 elif st.button("💰 ระบบแนะนำสินค้าจาก Market Basket Analysis"):
     st.switch_page("pages/association_items.py") 
-elif st.button("💰 ระบบแนะนำสินค้า"):
+elif st.button("💰 ระบบแนะนำสินค้า/ช่องทาง/ภูมิภาคอื่น ๆ ที่ลูกค้ามีแนวโน้มจะสนใจ จากกฎความสัมพันธ์ "):
     st.switch_page("pages/association_recommend.py") 
