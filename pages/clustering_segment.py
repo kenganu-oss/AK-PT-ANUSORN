@@ -14,7 +14,7 @@ except FileNotFoundError:
     st.stop() # หยุดการทำงานของแอปหากโหลดโมเดลไม่ได้
 
 # กำหนด Features ที่ใช้ในการเทรนโมเดล (ต้องตรงกับตอนเทรน)
-features = ['Units_Sold', 'Marketing_Spend', 'Customer_Score', 'Logistics_Delay', 'Revenue']
+tures = ['Units_Sold', 'Marketing_Spend', 'Customer_Score', 'Logistics_Delay', 'Revenue']
 
 # กำหนดค่า Centroids สำหรับอธิบายลักษณะของแต่ละ Cluster (คัดลอกมาจากตัวแปร `centroids` ในโน้ตบุ๊ก)
 centroids_data = {
