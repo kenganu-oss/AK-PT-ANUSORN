@@ -14,7 +14,7 @@ except FileNotFoundError:
     st.stop() # หยุดการทำงานของแอปหากโหลดโมเดลไม่ได้
 
 # กำหนด Features ที่ใช้ในการเทรนโมเดล (ต้องตรงกับตอนเทรน)
-tures = ['Units_Sold', 'Marketing_Spend', 'Customer_Score', 'Logistics_Delay', 'Revenue']
+features = ['Units_Sold', 'Marketing_Spend', 'Customer_Score', 'Logistics_Delay', 'Revenue']
 
 # กำหนดค่า Centroids สำหรับอธิบายลักษณะของแต่ละ Cluster (คัดลอกมาจากตัวแปร `centroids` ในโน้ตบุ๊ก)
 centroids_data = {
@@ -45,7 +45,7 @@ revenue = units_sold * unit_price
 st.info(f"Calculated Revenue: {revenue:,.2f}") # แสดงรายได้ที่คำนวณได้
 
 # สร้าง DataFrame สำหรับข้อมูลใหม่ที่ผู้ใช้ป้อน
-= pd.DataFrame([[units_sold, marketing_spend, customer_score, logistics_delay, revenue]],
+new_data_input = pd.DataFrame([[units_sold, marketing_spend, customer_score, logistics_delay, revenue]],
                                columns=features)
 
 # --- 3. ตรรกะการทำนาย (Prediction Logic) ---
